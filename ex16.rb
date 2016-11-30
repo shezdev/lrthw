@@ -1,3 +1,5 @@
+#Exercise 16: Reading and Writing Files
+
 filename = ARGV.first
 
 puts "We're going to erase #{filename}"
@@ -31,8 +33,8 @@ puts "I'm going to write these to the file."
 # target.write(line3)
 # target.write("\n")
 
-# This is a shorter way of writing the above target cmds - but on 1 line 
-target.write(line1 + "\n" + line2 + "\n" + line3 + "\n")
+# This is a shorter way of writing the above target cmds - but on 1 line
+target.write(line1 + "\n" + line2 + "\n" + line3 + "\n") # '+'sign for the win!
 
 puts "And finally, we close it."
 target.close
